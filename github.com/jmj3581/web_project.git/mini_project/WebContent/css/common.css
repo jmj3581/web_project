@@ -1,0 +1,510 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #878787;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #101010;
+}
+
+h2 {
+	padding-bottom: 30px;
+	letter-spacing: -1px;
+	font-size: 2em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+strong {
+}
+
+a {
+	color: #39C2F0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	width: 1100px;
+	padding: 0px 50px;
+	background: #FFFFFF;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** food list */
+#food_table {
+	display: table; 
+	width: 100%;
+	background-color: #EAEAEA;
+}
+.row {display: table-row;}
+.cell {
+	display: table-cell; 
+	padding: 3px; 
+	border-bottom: 1px solid #DDD;
+}
+.col1 {width: 12%;}
+.col2 {width: 15%;}
+.col3 {width: 30%;}
+
+/** board list */
+#food_table {
+	display: table; 
+	width: 100%;
+	background-color: #EAEAEA;
+}
+.row {display: table-row;}
+.cell {
+	display: table-cell; 
+	padding: 3px; 
+	border-bottom: 1px solid #DDD;
+}
+.col1 {width: 15%;}
+.col2 {width: 20%;}
+.col3 {width: 30%;}
+
+/** member list */
+#member_table {
+	display: table; 
+	width: 100%;
+	background-color: #EAEAEA;
+}
+.row {display: table-row;}
+.cell {
+	display: table-cell; 
+	padding: 3px; 
+	border-bottom: 1px solid #DDD;
+}
+.col1 {width: 3%;}
+.col2 {width: 8%;}
+.col3 {width: 30%;}
+
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	padding: 30px 0px;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1, #logo p {
+}
+
+#logo h1 {
+	letter-spacing: -2px;
+	font-size: 3em;
+}
+
+#logo h1 a {
+	color: #101010;
+	text-transform: uppercase;
+}
+
+#logo p {
+	margin: 0;
+	padding: 0px 0 0 0px;
+	color: #8E8E8E;
+}
+
+#logo p a {
+	color: #D6D6D6;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #12212F;
+}
+
+/** TOP_MENU */
+
+#top {
+	float: right;
+	width: 700px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#top ul {
+	float: right;
+	margin: 0;
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#top li {
+	float: left;
+	padding: 0px 0px 0px 0px;
+}
+
+#top a {
+	display: block;
+	margin-right: 1px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color: #585858;
+	border: none;
+}
+
+#top .current_page_item a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#top .current_page_item a {
+	background: #2AA8D2;
+	border-radius: 5px;
+}
+
+/** MENU */
+#menu {
+	overflow: hidden;
+	width: 1100px;
+	height: 70px;
+	margin: 0px auto;
+	background: #585858;
+	font-size: 20px;
+	color: #585858;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 200;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+}
+
+#menu .last {
+	border-right: none;
+}
+
+/** PAGE */
+
+#page {
+	overflow: hidden;
+	padding: 50px 0px 0px 0px;
+	border-top: 1px solid #DEDEDE;
+}
+
+#page .text_box {
+	width: 220px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+}
+
+#page .mobile_box {
+	width: 65px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+}
+
+#page .email_box {
+	width: 100px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+}
+
+#page .postcode_box {
+	width: 100px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+}
+
+#page .address_box {
+	width: 200px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+}
+
+.text_box {
+	width: 220px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+}
+
+/** CONTENT */
+
+#content {
+	float: left;
+	/* width: 750px; */
+}
+
+#content #cbox1 {
+	margin-bottom: 40px;
+}
+
+/** SIDEBAR */
+
+/* #sidebar {
+	float: right;
+	width: 300px;
+}
+
+#sidebar #box1 {
+	margin-bottom: 50px;
+} */
+
+/* Footer */
+
+#footer {
+	overflow: hidden;
+	padding: 50px 0px;
+	border-top: 1px solid #DEDEDE;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 12px;
+}
+
+#footer a {
+}
+
+/** BANNER */
+
+#banner {
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+
+/** TWO COLUMN */
+
+#two-column {
+	overflow: hidden;
+	padding: 40px 0px;
+	border-top: 1px solid #DEDEDE;
+}
+
+#two-column h2 {
+	font-size: 1.5em;
+}
+
+#two-column #tbox1 {
+	float: left;
+	width: 550px;
+}
+
+#two-column #tbox2 {
+	float: right;
+	width: 400px;
+}
+
+/* Button style 1 */
+
+.link-style {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px;
+	background: #000;
+	text-decoration: none;
+	color: #FFF;
+	border: 0;
+}
+
+
+/* List style 1 */
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 10px 0px 15px 0px;
+	border-top: 1px solid #E6E7DC;
+}
+
+ul.style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+/* List style 2 */
+
+ul.style2 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style2 li {
+	padding: 25px 0px 15px 0px;
+	border-top: 1px solid #E6E7DC;
+}
+
+ul.style2 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+ul.style2 h3 {
+	padding: 0px 0px 10px 0px;
+}
+
+ul.style2 h3 a {
+	color: #101010;
+}
+
+ul.style2 a {
+	text-decoration: none;
+}
+
+ul.style2 a:hover {
+	text-decoration: underline;
+}
+
+
+/* List style 3 */
+
+ul.style3 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style3 li {
+	padding: 20px 0px 20px 0px;
+	border-top: 1px solid #E6E7DC;
+}
+
+ul.style3 p {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.style3 img {
+	float: left;
+	margin-top: 3px;
+	margin-right: 20px;
+}
+
+ul.style3 .posted {
+	padding: 10px 0px 10px 0px;
+	font-size: 8pt;
+	color: #A2A2A2;
+}
+
+ul.style3 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+.textarea {
+	width: 700px; 
+	height: 200px; 
+	border-bottom: 1px solid #DDD; 
+	vertical-align: top;
+}
+.board_box {
+	width: 700px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+}
+
+.info_box {
+	width: 400px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #DEDEDE;
+}
